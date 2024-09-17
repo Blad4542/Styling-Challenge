@@ -1,0 +1,22 @@
+.button {
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.default {
+  white-space: nowrap;
+}
+
+.icon {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+
+  &::before {
+    content: "🔔";
+    margin-right: 10px;
+  }
+}
